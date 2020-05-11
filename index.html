@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="assets/shuffle-text.js"></script>
+	<link rel="stylesheet" href="assets/styles.css">
+	<script src="assets/js.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<title>KRENN</title>
+	<link rel="icon" type="image/png" href="favicon.png">
+	
+</head>
+<body>
+	<div class="nav">
+	</div>	
+<div class="content">
+  <a id="myBtn" onclick="myFunction()">Unmute</a>
+</div>
+	<div id="main">
+		<h1>KRENN</h1>
+		<a id="link" href="https://www.instagram.com/bvrzk/">INSTAGRAM</a> -
+		<a id="link" onclick="alert('Krenn#1337');">DISCORD</a> -
+		<a id="link" href="https://steamcommunity.com/id/txrr">STEAM</a></br> 
+		<a id="link" href="https://www.youtube.com/channel/UCCZVm6sXzVE7hKiPuS6hv_w">YOUTUBE</a> 
+
+	</div>
+
+	<video  video autoplay muted loop id="myVideo">
+  	<source src="songg.mp4" type="video/mp4">
+</body>
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+var one = document.getElementsByClassName("caja")
+
+    for (var i = 0; i < one.length; i++) {
+        var text = new ShuffleText(one[i]);
+		text.start();
+	}
+var vid = document.getElementById("myVideo");
+vid.volume = 0.2;
+function myFunction() {
+  if (video.muted) {
+    video.muted = false;
+    btn.innerHTML = "Mute";
+  } else {
+    video.muted = true;
+    btn.innerHTML = "Unmute";
+  }
+}
+</script>
+</html>
