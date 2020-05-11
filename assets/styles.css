@@ -1,0 +1,103 @@
+
+#myBtn{
+	transition: 0.3s;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	cursor: pointer;
+	color: rgb(247, 0, 255);
+
+}
+#myBtn:hover{
+	transition: 0.3s;
+	font-size: 37px;
+	font-family: 'Bebas Neue', cursive;
+	color: rgb(165, 12, 170);
+}
+.content{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	position: fixed;
+	top: 90%;
+}
+#main{
+	font-family: 'Bebas Neue', cursive;
+	display: inline-block;
+	align-content: center;
+	position: absolute;
+	width: 300px;
+	height: 60px;
+	z-index: 15;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+	text-align: center;
+	color: white;
+	cursor: default;
+}
+#link{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 25px;
+	text-decoration: none;
+	color: rgb(247, 0, 255);
+}
+#link:hover{
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 29px;
+	color: rgb(165, 12, 170);
+}
+h1{
+	font-size: 3em;
+	margin-bottom: 0.06em;
+}
+body{
+	background-color: #000;
+}
+#myVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+.nav{
+    top: 50%;
+    position: fixed;
+    left: 18%;
+}
+.caja{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+	color: red;
+}
+.caja:hover{
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 25px;
+	background-color: white;
+}
+#active{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+#active:hover{
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 25px;
+	background-color: red;
+}

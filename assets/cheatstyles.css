@@ -1,0 +1,80 @@
+body{
+	background-color: #000;
+}
+.nav{
+    top: 50%;
+    position: fixed;
+    left: 18%;
+}
+.caja{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+	color: red;
+}
+.caja:hover{
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 25px;
+	background-color: white;
+}
+#active{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+#active:hover{
+	transition: 0.3s;
+	cursor: pointer;
+	font-size: 25px;
+	background-color: red;
+}
+#text{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	font-size: 20px;
+	text-decoration: none;
+	color: red;
+}
+#next{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+#info{
+	font-family: 'Bebas Neue', cursive;
+	transition: 0.3s;
+	font-size: 20px;
+	text-decoration: none;
+	color: red;
+}
+#box{
+	cursor: default;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	display: inline-block;
+	align-content: center;
+	position: fixed;
+	z-index: -100;
+	width: 100%;
+	height: 60px;
+	top: 30%;
+}
+#download{
+	transition: 0.3s;
+ 	text-decoration: none;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-color: white;
+}
+#download:hover{
+	transition: 0.3s;
+	color: rgb(145, 145, 145);
+}
